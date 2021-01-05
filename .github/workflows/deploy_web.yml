@@ -42,4 +42,4 @@ jobs:
       
       #Run surge
       - name: Run surge
-        run: surge ./shoestore-zaheer.surge.sh --token ${{secrets.Surge_Token}}
+        run: surge ./build shoestore-zaheer.surge.sh --token ${{secrets.Surge_Token}}
